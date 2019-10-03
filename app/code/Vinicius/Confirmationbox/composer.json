@@ -1,0 +1,22 @@
+{
+    "name": "vinicius/confirmationbox",
+    "description": "Módulo para adicionar uma caixa de confirmação antes de adicionar um produto ao carrinho de compras. Essa caixa deve ser exibida apenas na tela de detalhes do produto (catalog_product_view), contendo as opções SIM e NÃO. Sendo que, clicando em SIM, o produto é adicionado ao carrinho. Clicando em NÃO, a caixa deve ser ocultada e nenhuma outra ação executada.",
+    "require": {
+      "magento/framework": "102.0.*"
+    },
+    "type": "magento2-module",
+    "version": "0.74.0-beta4",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Vinicius/Confirmationbox"
+            ]
+        ]
+    }
+}
